@@ -1,0 +1,80 @@
+/*aqui sera o primeiro a parte do cabeçalho*/
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    table{
+        margin-left: 420px;
+    } 
+}
+
+header th{
+        margin-left: 390px;
+        color: white;
+        background-color: blue;
+        font-size: 20px;
+        width: 82%;
+        /* Limita a largura do header */
+        text-align: center;
+        /* Centraliza o texto */
+        padding: 10px;
+        /* Adiciona espaçamento interno */
+        border-radius: 5px;
+        /* Arredonda as bordas (opcional) */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        /* Sombra sutil (opcional) */
+
+}
+
+nav {
+    margin-top: 16px;
+    text-align: center;
+
+}
+
+nav label{
+        text-align: right;
+        background-color: aqua;
+        color: white;
+        font-size: 18px;
+        width: 82% ;
+        padding: 14px;
+        border-radius: 5px;
+
+}
+
+nav input[id=Data]{
+    width: 160px;
+}
+
+nav input{
+    border-radius: 7px;
+}
+
+
+nav table{
+    margin-left: 360px;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+nav th{
+    background-color: aqua;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    margin-left: 360px;
+    width: 48%;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+footer input{
+    border-radius: 7px;
+    background-color: aqua;
+}
